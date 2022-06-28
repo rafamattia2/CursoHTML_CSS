@@ -15,5 +15,29 @@
         <source media="(max-width: 1030px)" srcset="imagens/imagem-m.png" type="image/png">
         <img src="imagens/imagem-g.png" alt="Imagem flexível">
       </picture>
+  <h1>Reprodução de áudio</h1>
+    <p>Aqui vamos aprender a inserir áudios em nossos sites.</p>
+      <audio src="audio/Pray - Anno Domini Beats.mp3" controls></audio>
+    <p>Outra forma de adicionar áudios:</p>
+      <audio preload="none" controls>
+        <source src="audio/Pray - Anno Domini Beats.mp3" type="audio/mpeg">
+        <source src="audio/Pray - Anno Domini Beats.ogg" type="audio/ogg">
+        <source src="audio/Pray - Anno Domini Beats.wav" type="audio/wav"><!--evitar usar WAV por ser MUITO PESADO--> 
+        <p>Infelizmente seu navegador não suporte nossos formatos de áudio. <a href="audio/Pray - Anno Domini Beats.mp3">Clique aqui para fazer o download do arquivo mp3.</a></p>
+      </audio>
+  <h1>Reprodução de vídeos</h1>
+    <p>Aqui vamos aprender a inserir vídeos em nossos sites</p>
+      <video controls width="560" poster="imagens/exemplocapa.png" autoplay loop>
+        <source src="videos/video1.mp4" type="video/mp4">
+        <source src="videos/video2.m4v" type="video/m4v">
+        <source src="videos/video3.ogv" type="video/ogg">
+        <p>Seu navegador não tem compatibilidade com reprodução de vídeos.</p>
+      </video>
+    
+      <p>Inserindo vídeos pelo YouTube</p>
+       <iframe width="560" height="315" src="https://www.youtube.com/embed/FdE5G95B7Mg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+       <p>Inserindo vídeos pelo Vimeo</p>
+        <iframe src="https://player.vimeo.com/video/74655666?h=0517d145a0&color=ff0179&portrait=0" width="560" height="420" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
 </body>
 </html>
