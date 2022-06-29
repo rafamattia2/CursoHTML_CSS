@@ -1,0 +1,2 @@
+# Desafio 03
+- Este exercício tem como objetivo criar uma página web com quatro indicações de vídeos, mostrando apenas suas capas. Ao clicar em qualquer uma das capas, avança para uma página onde dará acesso ao vídeo escolhido.
