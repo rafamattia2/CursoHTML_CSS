@@ -1,0 +1,19 @@
+*{ /*configurações globais das CSS*/
+  height: 100%;
+}
+body {
+  background-image: linear-gradient(to top, #E6B391, #9CD7E6, #4EE6D6);
+}
+h1 {
+  height: auto;
+  text-align: center;
+  background-color: #e6b391e2;
+}
+h2 {
+  height: auto;
+  background-image: linear-gradient(to right, #E6B391, #4EE6D6);
+}
+
+p{
+  height: auto;
+}
