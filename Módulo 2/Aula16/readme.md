@@ -1,0 +1,2 @@
+# Aula 16
+- Nesta aula estudamos abordamos fontes, desde os princípios que definem uma fonte até maneiras de encontrar e decidir quais fontes utilizar. Além disso, aprendemos como encontrar fontes e adicioná-las de diversas maneiras em nossos códigos.
