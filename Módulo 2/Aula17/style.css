@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+body {
+  background-color: lightgreen;
+}
+
+h1 {
+  color: green;
+}
+
+h1#principal {
+  color: white;
+}
+
+h2 {
+  color: rgb(31, 31, 31);
+}
+
+.basico {
+  background-color: blue;
+}
+
+.intermediario{
+  background-color: red;
+}
